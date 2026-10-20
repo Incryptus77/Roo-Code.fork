@@ -65,4 +65,8 @@ Success requires actual useful Owner behavior and, as applicable, a compiled/run
 - Licenses unchanged by port
 - Untrusted tool permissions not inherited
 
+## DevOps and propagation
+
+Read .incryptusos/devops/ADOPTION_AND_RELEASE_RUNBOOK.md, environment.json and .incryptusos/propagation/INBOX.json. This policy is observe-only until verified on a real self-hosted runner, staging and rollback. GitHub Actions and paid features are not part of this product. Do not automatically deploy main or overwrite a live pipeline.
+
 [END OF DOCUMENT: Roo-Code.fork — Canonical Agent Instructions]
