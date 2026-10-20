@@ -1,0 +1,8 @@
+{
+  "schema": "inxos.agent_packet_provenance.v1",
+  "repo": "Incryptus77/Roo-Code.fork",
+  "registryBlob": "7700b46b26375223d38b9ada10d0d2784c95b276",
+  "generatorBlob": "542a0c53563487c04ee36fea9c67619ab2540473",
+  "mode": "AGENT_REVIEW",
+  "runtimeVerified": false
+}

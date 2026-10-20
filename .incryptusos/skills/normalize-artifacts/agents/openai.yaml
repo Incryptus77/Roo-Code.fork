@@ -1,0 +1,3 @@
+interface:
+  display_name: "Normalize Construction Artifacts"
+  short_description: "Safely consolidate repo agent and construction materials."
