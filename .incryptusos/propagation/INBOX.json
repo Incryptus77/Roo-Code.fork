@@ -1,0 +1,31 @@
+{
+  "schema": "inxos.propagation.inbox.v1",
+  "repository": "Incryptus77/Roo-Code.fork",
+  "standardSourceSha": "7ff0cc7075227f1c9fb6b6325562fdca9e612cfe",
+  "state": "PENDING_REVIEW_NOT_EXECUTED",
+  "issuedBy": "INXOS_CORE_SOURCE_REGISTRY",
+  "authenticatedDispatch": "NOT_YET_IMPLEMENTED",
+  "events": [
+    {
+      "id": "INXOS-ENVIRONMENT-BASELINE-20261020",
+      "class": "INFRA_EXECUTABLE",
+      "status": "NOTIFY_AGENT_REVIEW",
+      "sourceRepo": "Incryptus77/IncryptusOS",
+      "sourceSha": "7ff0cc7075227f1c9fb6b6325562fdca9e612cfe",
+      "target": ".incryptusos/devops/environment.json",
+      "purpose": "Inventory current dev/staging/prod, create safe self-hosted test and staging release contracts, disable unsafe direct prod only after safe replacement",
+      "noUnattendedDeployment": true,
+      "rollbackRequired": true
+    },
+    {
+      "id": "INXOS-CANONICAL-HARNESS-20261020",
+      "class": "AGENT_BEHAVIOR",
+      "status": "NOTIFY_AGENT_REVIEW",
+      "sourceRepo": "Incryptus77/IncryptusOS",
+      "sourceSha": "7ff0cc7075227f1c9fb6b6325562fdca9e612cfe",
+      "target": ".incryptusos/AGENTS.md",
+      "purpose": "Preserve active Owner work while adopting local canonical agent, rules, commands, prompts and skills under .incryptusos; retain fixed-path loader shims",
+      "noUnattendedDeployment": true
+    }
+  ]
+}

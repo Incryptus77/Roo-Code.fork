@@ -1,0 +1,83 @@
+{
+  "schema": "inxos.devops.repository.v1",
+  "repository": "Incryptus77/Roo-Code.fork",
+  "standard": {
+    "owner": "Incryptus77/IncryptusOS",
+    "registryBlobSha": "7700b46b26375223d38b9ada10d0d2784c95b276",
+    "major": 1,
+    "sourceOfTruth": ".incryptusos/devops/ARCHITECTURE_AND_ENVIRONMENTS.md"
+  },
+  "product": {
+    "kind": "historical-donor",
+    "priority": "P3_REFERENCE",
+    "firstOwnerProof": "A source-pinned feature/license comparison identifies reusable components and demonstrates a behavior-preserving differential test in the intended adopter.",
+    "currentlyDeployed": "NOT_VERIFIED",
+    "sourceCodeCustody": "PRESERVE_CURRENT_ACTIVE_IMPLEMENTATION"
+  },
+  "risk": {
+    "tier": "documentation",
+    "regulatedOrMoneyOrPrivateData": "MANUAL_SCOPED_REVIEW_REQUIRED"
+  },
+  "source": {
+    "currentForge": "GITHUB_TEMPORARY",
+    "futureForge": "INXOS_SELF_HOSTED",
+    "defaultSourceRef": "refs/heads/main",
+    "mainMeansProductionDeploy": false,
+    "requireImmutableSha": true,
+    "protectedMainEnforced": "NOT_VERIFIED"
+  },
+  "execution": {
+    "engine": "INXOS_CONTROL_SELF_HOSTED",
+    "runner": "UNSELECTED",
+    "restrictedContainers": true,
+    "dockerSocketInUntrustedJob": false,
+    "prodSecretsInBuildRunner": false,
+    "candidateRuntime": [],
+    "buildCommands": [],
+    "testCommands": [],
+    "hostOnlyTests": [],
+    "currentPipeline": "UNINVENTORIED",
+    "currentProductionHook": "UNKNOWN_PRESERVE"
+  },
+  "environments": {
+    "development": {
+      "status": "UNVERIFIED",
+      "resourceId": null,
+      "credentialRef": null,
+      "protectionVerified": false,
+      "activeDeploymentObserved": false
+    },
+    "staging": {
+      "status": "UNVERIFIED",
+      "resourceId": null,
+      "credentialRef": null,
+      "protectionVerified": false,
+      "activeDeploymentObserved": false
+    },
+    "production": {
+      "status": "UNVERIFIED",
+      "resourceId": null,
+      "credentialRef": null,
+      "protectionVerified": false,
+      "activeDeploymentObserved": false
+    }
+  },
+  "automation": {
+    "mode": "observe",
+    "productionDirectOnMain": false,
+    "productionPromotionEnabled": false,
+    "lowRiskAutopromote": false,
+    "allowUnreviewedWorkflowChanges": false,
+    "requireSignedArtifact": true,
+    "requireStagingExactArtifact": true,
+    "requireRollbackReadback": true,
+    "requireIndependentOwnerApproval": false
+  },
+  "propagation": {
+    "policy": "OWNER_REVIEW_BEHAVIOR_AND_RUNTIME",
+    "acceptedStandardRef": null,
+    "status": "AWAITING_AGENT_SOURCE_AUDIT",
+    "currentAgentInbox": ".incryptusos/propagation/INBOX.json"
+  },
+  "firstAction": "Inventory actual existing build/deploy and sensitive data boundaries before modifying any runtime or production hook."
+}
